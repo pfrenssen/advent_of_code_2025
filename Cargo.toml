@@ -1,0 +1,11 @@
+[package]
+name = "advent_of_code_2025"
+version = "0.1.0"
+authors = ["Pieter Frenssen <pieter@frenssen.be>"]
+edition = "2024"
+
+[dependencies]
+aoc-runner = "^0.3.0"
+aoc-runner-derive = "^0.3.0"
+indoc = "^2.0.7"
+regex = "^1.12.2"
