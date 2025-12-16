@@ -107,6 +107,7 @@ mod tests {
     use indoc::indoc;
 
     #[test]
+    #[rustfmt::skip]
     fn test_parse_input_part1() {
         let expected = vec![
             Some(Rotation { direction: Direction::Left, value: 68 }),
